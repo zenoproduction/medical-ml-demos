@@ -1,4 +1,4 @@
-# 🧠 medical-ml-demos
+# medical-ml-demos
 
 Repository di **notebook Python** con esempi di Machine Learning applicati alla medicina, usando dataset open.
 Ogni notebook segue lo stesso flusso: **dataset → preprocessing → training → valutazione (ROC/AUC, conf. matrix)**.
@@ -7,9 +7,6 @@ Ogni notebook segue lo stesso flusso: **dataset → preprocessing → training �
 - `notebooks/01_xray_cnn_pneumoniamnist.ipynb` – **Classificazione immagini** (PneumoniaMNIST, da MedMNIST) con CNN PyTorch.
 - `notebooks/02_diabetes_pima_classification.ipynb` – **Predizione diabete** (Pima Indians Diabetes) con modelli classici (Logistic Regression, XGBoost opzionale).
 - `notebooks/03_breast_cancer_wisconsin.ipynb` – **Riconoscimento tumori** (Breast Cancer Wisconsin, scikit-learn) con confronto modelli e curva ROC multi-modello.
-
-## Perché utile
-Entry-level ma **professionale**: mostra buone pratiche (train/val/test, scaling, cross‑val, ROC/AUC, stratificazione, seed riproducibili), adatto a studenti, ricercatori e developer che vogliono esempi chiari.
 
 ## Setup rapido
 ```bash
