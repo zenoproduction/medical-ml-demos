@@ -36,3 +36,18 @@ medical-ml-demos/
 
 ## Licenza
 Codice MIT. I dataset mantengono le rispettive licenze (MedMNIST, UCI, scikit-learn datasets).
+
+## Esempi di output
+
+### ROC curve – Pima Indians Diabetes
+![ROC Pima](docs/roc_pima.png)
+
+---
+
+### ROC curve – Breast Cancer Wisconsin
+![ROC Breast](docs/roc_breast.png)
+
+---
+
+### Confusion Matrix – PneumoniaMNIST
+![CM Pneumonia](docs/cm_pneumonia.png)
